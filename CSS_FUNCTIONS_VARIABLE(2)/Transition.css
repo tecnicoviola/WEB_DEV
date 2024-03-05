@@ -1,0 +1,15 @@
+.container{
+    border:1px solid brown;
+    background-color: greenyellow;
+    height: 300px;
+    width: 300px;
+    display: flex;
+}
+
+.box{
+    margin:20px;
+    width: 150px;
+    height:150px;
+    border: 2px solid orangered;
+    background-color: aqua;
+}

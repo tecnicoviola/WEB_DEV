@@ -1,0 +1,29 @@
+.container{
+    border:3px solid brown;
+    background-color: greenyellow;
+    height: 500px;
+    width: 500px;
+    display: flex;
+}
+
+.box{
+    height:150px;
+    width:150px; 
+    margin:20px; 
+    border:2px solid orangered;
+    background-color: aqua;
+
+   /*transition:transform 3s cubic-beizer(0,1.47, 0,1.68);*/ /*short hand notation for below 4 lines*/   
+
+   transition-property:transform;
+   transition-duration: 3s;
+   transition-timing-function: cubic-beizer(0,1.47, 0,1.68);
+   transition-delay:1s;
+}
+
+.box:hover{
+    /*background-color: brown;
+    transform: rotate(45deg);*/
+
+    transform:scale(2) translateX(501px) rotate(360deg);
+}

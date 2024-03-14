@@ -1,0 +1,24 @@
+.container{
+    border:3px solid brown;
+    background-color: greenyellow;
+    height: 500px;
+    width: 500px;
+    display: flex;
+}
+
+.box{
+    height:150px;
+    width:150px; 
+    margin:20px; 
+    border:2px solid orangered;
+    background-color: aqua;
+
+   transition: all 15s ease 1s;   
+}
+
+.box:hover{
+    background-color: brown;
+    transform: rotate(45deg);
+}
+
+/*in line 16 transition bw aqua to  orange is 1s*/
